@@ -16,19 +16,19 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 * Temperature (F) vs. Latitude
 
-![Temperature vs. Latitude](output/LatVsTemp.png)
+![Temperature vs. Latitude](outputs/LatVsTemp.png)
 
 * Humidity (%) vs. Latitude
 
-![Humidity vs. Latitude](output/LatVsHumidity.png)
+![Humidity vs. Latitude](outputs/LatVsHumidity.png)
 
 * Cloudiness (%) vs. Latitude
 
-![Cloudiness vs. Latitude](output/LatVsCloudiness.png)
+![Cloudiness vs. Latitude](outputs/LatVsCloudiness.png)
 
 * Wind Speed (mph) vs. Latitude
 
-![Wind Speed vs. Latitude](output/LatVsWindSpeed.png)
+![Wind Speed vs. Latitude](outputs/LatVsWindSpeed.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
@@ -36,35 +36,35 @@ The second requirement is to run linear regression on each relationship. This ti
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 
-![Northern Hemisphere - Temperature vs. Latitude](output/NorthMaxTemp.png)
+![Northern Hemisphere - Temperature vs. Latitude](outputs/NorthMaxTemp.png)
 
 * Southern Hemisphere - Temperature (F) vs. Latitude
 
-![Souththern Hemisphere - Temperature vs. Latitude](output/SouthMaxTemp.png)
+![Souththern Hemisphere - Temperature vs. Latitude](outputs/SouthMaxTemp.png)
 
 * Northern Hemisphere - Humidity (%) vs. Latitude
 
-![Northern Hemisphere - Humidity vs. Latitude](output/NorthHumidity.png)
+![Northern Hemisphere - Humidity vs. Latitude](outputs/NorthHumidity.png)
 
 * Southern Hemisphere - Humidity (%) vs. Latitude
 
-![Southern Hemisphere - Humidity vs. Latitude](output/SouthHumidity.png)
+![Southern Hemisphere - Humidity vs. Latitude](outputs/SouthHumidity.png)
 
 * Northern Hemisphere - Cloudiness (%) vs. Latitude
 
-![Northern Hemisphere - Cloudiness vs. Latitude](output/NorthCloudiness.png)
+![Northern Hemisphere - Cloudiness vs. Latitude](outputs/NorthCloudiness.png)
 
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
 
-![Souththern Hemisphere - Cloudiness vs. Latitude](output/SouthCloudiness.png)
+![Souththern Hemisphere - Cloudiness vs. Latitude](outputs/SouthCloudiness.png)
 
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 
-![Northern Hemisphere - Wind Speed vs. Latitude](output/NorthWindSpeed.png)
+![Northern Hemisphere - Wind Speed vs. Latitude](outputs/NorthWindSpeed.png)
 
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-![Southern Hemisphere - Wind Speed vs. Latitude](output/SouthWindSpeed.png)
+![Southern Hemisphere - Wind Speed vs. Latitude](outputs/SouthWindSpeed.png)
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 
@@ -87,7 +87,7 @@ To complete this part of the assignment,you will need to do the following:
 
 * Create a heat map that displays the humidity for every city from Part I.
 
-![Heat Map](output/heatmap.png)
+![Heat Map](outputs/heatmap.png)
 
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
@@ -105,7 +105,7 @@ To complete this part of the assignment,you will need to do the following:
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-![Heat Map with Pins](output/heatmap_with_pins.png)
+![Heat Map with Pins](outputs/heatmap_with_pins.png)
 
 As final considerations:
 
@@ -118,7 +118,7 @@ As final considerations:
 
 ## Hints and Considerations
 
-* The city data you generate is based on random coordinates as well as different query times. As such, your outputs will not be an exact match to the provided starter notebook.
+* The city data you generate is based on random coordinates as well as different query times. As such, your outputss will not be an exact match to the provided starter notebook.
 
 * If you'd like a refresher on the geographic coordinate system, [this site](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm) has great information.
 
