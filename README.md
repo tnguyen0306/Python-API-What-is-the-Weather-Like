@@ -15,22 +15,56 @@ In this example, you'll be creating a Python script to visualize the weather of 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+
+![Temperature vs. Latitude](output/LatVsTemp.png)
+
 * Humidity (%) vs. Latitude
+
+![Humidity vs. Latitude](output/LatVsHumidity.png)
+
 * Cloudiness (%) vs. Latitude
+
+![Cloudiness vs. Latitude](output/LatVsCloudiness.png)
+
 * Wind Speed (mph) vs. Latitude
+
+![Wind Speed vs. Latitude](output/LatVsWindSpeed.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
+
+![Northern Hemisphere - Temperature vs. Latitude](output/NorthMaxTemp.png)
+
 * Southern Hemisphere - Temperature (F) vs. Latitude
+
+![Souththern Hemisphere - Temperature vs. Latitude](output/SouthMaxTemp.png)
+
 * Northern Hemisphere - Humidity (%) vs. Latitude
+
+![Northern Hemisphere - Humidity vs. Latitude](output/NorthHumidity.png)
+
 * Southern Hemisphere - Humidity (%) vs. Latitude
+
+![Southern Hemisphere - Humidity vs. Latitude](output/SouthHumidity.png)
+
 * Northern Hemisphere - Cloudiness (%) vs. Latitude
+
+![Northern Hemisphere - Cloudiness vs. Latitude](output/NorthCloudiness.png)
+
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
+
+![Souththern Hemisphere - Cloudiness vs. Latitude](output/SouthCloudiness.png)
+
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+
+![Northern Hemisphere - Wind Speed vs. Latitude](output/NorthWindSpeed.png)
+
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+![Southern Hemisphere - Wind Speed vs. Latitude](output/SouthWindSpeed.png)
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 
@@ -53,6 +87,8 @@ To complete this part of the assignment,you will need to do the following:
 
 * Create a heat map that displays the humidity for every city from Part I.
 
+![Heat Map](output/heatmap.png)
+
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
   * A max temperature lower than 80 degrees but higher than 70.
@@ -68,6 +104,8 @@ To complete this part of the assignment,you will need to do the following:
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+
+![Heat Map with Pins](output/heatmap_with_pins.png)
 
 As final considerations:
 
